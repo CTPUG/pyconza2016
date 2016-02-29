@@ -280,15 +280,9 @@ a:focus {
   color: #fed43c;
 }
 
-.navbar .nav > li > a {
-  padding: 10px 13px;
-}
-
 .navbar-inverse .navbar-brand,
 .navbar-inverse .nav > li > a {
   color: #fff;
-  text-transform: uppercase;
-  font-size: 18px;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -306,10 +300,6 @@ a:focus {
 
 .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
   display: none;
-}
-
-.navbar-nav {
-  margin-top: 5px;
 }
 
 .dropdown-menu > li > a:hover,
