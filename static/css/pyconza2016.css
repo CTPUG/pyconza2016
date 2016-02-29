@@ -229,7 +229,7 @@ table td {
 
 /* fix icons on top nav bar */
 ul.nav li.icon a {
-  padding: 6px;
+  padding: 12px;
 }
 
 /* override buttons */
@@ -264,9 +264,12 @@ a:focus {
 /* NAV */
 .navbar-inverse .navbar-brand,
 .navbar-inverse .nav > li > a {
+  background-color: #1a1f29;
   color: #fff;
-  text-transform: uppercase;
-  font-size: 18px;
+
+  /*text-transform: uppercase;*/
+
+  /*font-size: 18px;*/
   font-family: 'Oswald', sans-serif;
 }
 
@@ -297,7 +300,8 @@ a:focus {
 }
 
 .navbar .nav > li > a {
-  padding: 10px 13px;
+
+  /*padding: 10px 13px;*/
 }
 
 .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
@@ -323,6 +327,7 @@ a:focus {
 
 .navbar {
   margin-bottom: 0;
+  background-color: #1a1f29;
 }
 
 .pull-right {
