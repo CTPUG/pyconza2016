@@ -1,5 +1,6 @@
 body {
   font-size: 16px;
+  font-family: 'Source Sans Pro';
 }
 
 #wrap {
@@ -102,13 +103,14 @@ table td {
 
 #main table td.title {
   background: #cc6714;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Alegreya';
   font-size: 16px;
   color: #1a1f29;
   line-height: 26px;
 }
 
 #main table th {
+  font-family: 'Alegreya';
   background: #fed43c;
   color: #181f29;
   font-weight: normal;
@@ -116,7 +118,6 @@ table td {
 }
 
 #main table th span {
-  font-family: 'Oswald', sans-serif;
   font-size: 16px;
   font-weight: bold;
   color: #1a1f29;
@@ -174,7 +175,6 @@ table td {
 /* Use a darker background for unavailable venues in the schedule */
 #main table td.unavailable {
   background: #444444;
-  font-family: 'Oswald', sans-serif;
   font-size: 16px;
   color: #1a1f29;
   line-height: 26px;
@@ -247,7 +247,6 @@ a:focus {
 .navbar-inverse .nav > li > a {
   background-color: #1a1f29;
   color: #fff;
-  font-family: 'Oswald', sans-serif;
 }
 
 .navbar-inverse .navbar-brand:hover,
@@ -260,7 +259,6 @@ a:focus {
 .navbar-inverse .navbar-brand,
 .navbar-inverse .nav > li > a {
   color: #fff;
-  font-family: 'Oswald', sans-serif;
 }
 
 .navbar-inverse .navbar-brand:hover,
@@ -290,6 +288,7 @@ a:focus {
 .navbar {
   margin-bottom: 0;
   background-color: #1a1f29;
+  font-family: 'Alegreya';
 }
 
 .pull-right {
