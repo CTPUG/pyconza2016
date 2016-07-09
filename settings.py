@@ -33,10 +33,10 @@ WAFER_MENUS += (
      "items": [
          {"name": "Takealot", "label": _(u"» Takealot ★"),
           "url": reverse_lazy("wafer_sponsor", args=(1,))},
+         {"name": "Oracle", "label": _(u"» Oracle ★"),
+          "url": reverse_lazy("wafer_sponsor", args=(2,))},
          {"name": "Google", "label": _(u"» Google ★"),
           "url": reverse_lazy("wafer_sponsor", args=(5,))},
-         {"name": "Oracle", "label": _(u"» Oracle"),
-          "url": reverse_lazy("wafer_sponsor", args=(2,))},
          {"name": "PSF", "label": _(u"» PSF"),
           "url": reverse_lazy("wafer_sponsor", args=(3,))},
          {"name": "OfferZen", "label": _(u"» OfferZen"),
