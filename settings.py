@@ -49,6 +49,8 @@ WAFER_MENUS += (
           "url": reverse_lazy("wafer_sponsor", args=(7,))},
          {"name": "VOSS", "label": _(u"» VOSS"),
           "url": reverse_lazy("wafer_sponsor", args=(8,))},
+         {"name": "CHPC", "label": _(u"» CHPC"),
+          "url": reverse_lazy("wafer_sponsor", args=(11,))},
          {"name": "sponsors", "label": _("Our sponsors"),
           "url": reverse_lazy("wafer_sponsors")},
          {"name": "packages", "label": _("Sponsorship packages"),
