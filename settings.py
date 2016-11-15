@@ -19,9 +19,9 @@ STATICFILES_DIRS = (
     os.path.join(pyconzadir, 'bower_components'),
 )
 
-TEMPLATE_DIRS = (
+TEMPLATES[0]['DIRS'] = (
     os.path.join(pyconzadir, 'templates'),
-) + TEMPLATE_DIRS
+) + TEMPLATES[0]['DIRS']
 
 
 WAFER_MENUS += (
